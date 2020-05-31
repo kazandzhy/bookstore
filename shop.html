@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Online</title>
+        
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+        <script src="https://kit.fontawesome.com/3aa9c2a23f.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="shop.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
+    </head>
+    
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+            <a class="navbar-brand" href="#" id="author">Vlad Kazandzhi</a>
+            <a class="navbar-brand" href="#" id="current-page">Order Online</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="nav navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html"> Book World</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://w3playground.com"> Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+           
+           
+            <div class="row row1">
+               
+                <div class="col-lg">
+                    
+                    <div class="book">
+                        <div class="row">
+                            <img src="1984.jpeg" alt="Nineteen Eighty-Four" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Nineteen Eighty-Four</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By George Orwell</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent1">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+
+                            <div class="collapse" id="navbarToggleExternalContent1">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         In George Orwell's 1984, Winston Smith wrestles with oppression in Oceania, a place where the Party scrutinizes human actions with ever-watchful Big Brother. Defying a ban on individuality, Winston dares to express his thoughts in a diary and pursues a relationship with Julia. These criminal deeds bring Winston into the eye of the opposition, who then must reform the nonconformist. George Orwell's 1984 introduced the watchwords for life without freedom: BIG BROTHER IS WATCHING YOU.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$20</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Nineteen Eighty-Four" id="1984" onchange="checkTotal()">
+                            <label class="form-check-label" for="1984">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg">
+                    <div class="book">
+                        <div class="row">
+                            <img src="gatsby.jpg" alt="The Great Gatsby" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">The Great Gatsby</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By F. Scott Fitzgerald</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent2">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent2">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         F. Scott Fitzgerald's novel,The Great Gatsby, follows Jay Gatsby, a man who orders his life around one desire: to be reunited with Daisy Buchanan, the love he lost five years earlier. Gatsby's quest leads him from poverty to wealth, into the arms of his beloved, and eventually to death. Published in 1925, The Great Gatsby is a classic piece of American fiction. It is a novel of triumph and tragedy, noted for the remarkable way Fitzgerald captured a cross-section of American society.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$10</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="The Great Gatsby" id="gatsby" onchange="checkTotal()">
+                            <label class="form-check-label" for="gatsby">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="mockingbird.jpg" alt="To Kill a Mockingbird" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">To Kill a Mockingbird</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Harper Lee</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent3">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent3">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         In To Kill a Mockingbird, author Harper Lee uses memorable characters to explore civil rights and racism in the segregated Southern United States of the 1930s. Told through the eyes of Scout Finch, you learn about her father Atticus Finch, an attorney who hopelessly strives to prove the innocence of a black man unjustly accused of rape; and about Boo Radley, a mysterious neighbor who saves Scout and her brother Jem from being killed.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$15</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="To Kill a Mockingbird" id="mockingbird" onchange="checkTotal()">
+                            <label class="form-check-label" for="mockingbird">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row row2">
+               
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="pride.jpg" alt="Pride and Prejudice" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Pride and Prejudice</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Jane Austen</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent4">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent4">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         Elizabeth Bennet and her four sisters are all unmarried, much to their parents' dismay. Early in the novel, Elizabeth attends the Meryton Ball, where she meets an eligible bachelor named Mr. Bingley. He takes an immediate liking to her, but his friend, Mr. Darcy, has the opposite reaction.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$15</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Pride and Prejudice" id="pride" onchange="checkTotal()">
+                            <label class="form-check-label" for="pride">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="catcher.jpg" alt="The Catcher in the Rye" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">The Catcher in the Rye</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By J.D. Salinger</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent5">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent5">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         J.D. Salinger's The Catcher in the Rye, Holden Caulfield recounts the days following his expulsion from Pencey Prep, a private school. After a fight with his roommate, Stradlater, Holden leaves school two days early to explore New York before returning home, interacting with teachers, prostitutes, nuns, an old girlfriend, and his sister along the way. J.D. Salinger's classic The Catcher in the Rye illustrates a teenager's dramatic struggle against death and growing up.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$10</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="The Catcher in the Rye" id="catcher" onchange="checkTotal()">
+                            <label class="form-check-label" for="catcher">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="wuthering.jpg" alt="Wuthering Heights" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Wuthering Heights</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Emily Bronte</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent6">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent6">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                        Wuthering Heights, realism and gothic symbolism combine to form a romance novel that's full of social relevance. Follow the self-destructive journey of Heathcliff as he seeks revenge for losing his soul mate, Catherine, to Edgar Linton. Themes — such as good versus evil, chaos and order, selfishness, betrayal, and obsession — intertwine as the story unfolds. Emily Bronte's Wuthering Heights is a symbolic and psychological study of the nature of love.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$20</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Wuthering Heights" id="wuthering" onchange="checkTotal()">
+                            <label class="form-check-label" for="wuthering">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div> 
+                </div>
+              </div>
+            
+              <div class="row row3">
+                <div class="col-lg">
+                  
+                    <div class="book">
+                        <div class="row">
+                            <img src="anna.jpg" alt="Anna Karenina" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Anna Karenina</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Leo Tolstoy</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent7">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent7">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         Anna Karenina (Keira Knightley), the wife of a Russian imperial minister (Jude Law), creates a high-society scandal by an affair with Count Vronsky (Aaron Taylor-Johnson), a dashing cavalry officer in 19th-century St. Petersburg. Anna's husband, Alexei, offers her a difficult choice: Go into exile with Vronsky but never see her young son again, or remain with her family and abide by the rules of discretion. Meanwhile, a farmer named Levin pines for Princess Kitty, who only has eyes for Vronsky.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$10</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Anna Karenina" id="anna" onchange="checkTotal()">
+                            <label class="form-check-label" for="anna">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="jane.jpg" alt="Jane Eyre" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Jane Eyre</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Charlotte Bronte</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent8">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent8">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         Charlotte Brontë's Jane Eyre opens with Jane, an orphaned, isolated ten-year-old, living with a family that dislikes her. She grows in strength, excels at school, becomes a governess, and falls in love with Edward Rochester. After being deceived by him, Jane goes to Marsh End, where she regains her spirituality and discovers her own strength. By novel's end, Jane is a strong, independent woman. Charlotte Brontë's Jane Eyre still raises relevant questions to readers today.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$20</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Jane Eyre" id="jane" onchange="checkTotal()">
+                            <label class="form-check-label" for="jane">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="col-lg">
+                
+                    <div class="book">
+                        <div class="row">
+                            <img src="moby.jpg" alt="Moby Dick" class="bookImage">         
+                        </div>
+
+                        <div class="row">
+                            <span class="bookTitle">Moby Dick</span>        
+                        </div>
+
+                        <div class="row">
+                            <span class="bookAuthor">By Herman Melville</span>        
+                        </div>
+
+                        <div class="pos-f-t">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent9">
+                                <span class="navbar-toggler-icon"></span>
+                                <i class="fas fa-angle-down"></i>
+                                <span class="bookDescription">Book Description</span>
+                            </button>
+
+                            <div class="collapse" id="navbarToggleExternalContent9">
+
+                                <div class="bg-default p-3">
+                                    <span class="text-white">
+                                         The next day, Moby Dick is sighted again, and the boats are lowered once more. The whale is harpooned, but Moby Dick again attacks Ahab's boat. Fedallah, trapped in the harpoon line, is dragged overboard to his death. Starbuck must maneuver the Pequod between Ahab and the angry whale.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <span class="bookPrice">$15</span>        
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="purchase[]" value="Moby Dick" id="moby" onchange="checkTotal()">
+                            <label class="form-check-label" for="moby">
+                                Add to Cart
+                            </label>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+                   
+            <hr>     
+
+            <div class="row" id="totalRow">
+
+
+                <span id="total">Total: <span class="" id="totalprice">$0</span></span>
+
+
+                <input type="submit" value="Check Out" id="checkoutbutton" class="checkoutbutton" onclick="checkOut()">
+
+            </div>
+        </div>
+
+        <!-- JS -->
+        <script type="text/javascript" src="shop.js"></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <!-- Popper.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.container {
+    margin-top: 5rem;
+    width: 30rem;
+}
+
+.alert-warning {
+    background-color: #fcd116;
+    color: black;
+}
+
+.alert-success {
+    background-color: #0165fc;
+    color: white;
+}
+
+.confirm {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 490px) {
+     
+    .container {
+        width: 90%;
+    }  
+}
+
+
+
+@media (max-width: 438px) {
+     
+    .container {
+        margin-top: 7rem;
+    }  
+}
+
+@media (max-width: 293px) {
+     
+    .container {
+        margin-top: 9rem;
+    } 
+}

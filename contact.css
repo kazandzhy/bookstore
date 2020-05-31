@@ -1,0 +1,87 @@
+.container {
+    margin-top: 2rem;
+}
+
+@-webkit-keyframes scroll {
+    
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+
+@-moz-keyframes scroll {
+
+    0% {
+        -moz-transform: translate(0, 0);
+
+        transform: translate(0, 0);
+    }
+
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+
+@keyframes scroll {
+
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+
+.banner {
+    margin-top: 5rem;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.banner span {
+    display: inline-block;
+    padding-left: 100%;
+    -webkit-animation: scroll 8s infinite linear;
+    -moz-animation: scroll 8s infinite linear;
+    animation: scroll 8s infinite linear;
+}
+
+#addressPicker {
+    margin:0 auto;
+    display: block;
+    width: 18rem;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+#map {
+    width: 20rem;
+	height: 20rem;
+	margin:0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 370px) {
+    
+   #addressPicker, #map {
+
+    width: 90%;
+}
+
+@media (max-width: 353px) {
+    
+    .banner {
+        margin-top: 7rem;
+    }
+}
